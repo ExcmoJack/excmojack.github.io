@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #fff;
+    font-size: 1.2em;
+}
+
+header {
+    background: linear-gradient(to bottom right, #4D8C57, #185934);
+    padding: 3em;
+    color: #fff;
+    text-align: center;
+}
+
+header .logo {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 5em;
+    text-shadow: 0em 0px 8px rgb(255, 255, 255), 0em 8px rgb(255, 255, 255, 0.5);
+}
+
+header .description {
+    padding: 1em 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+    padding: 1em;
+    background-color: #fff;
+    color: #2C4459;
+}
+
+section h2 {
+    color: #194035;
+    font-weight: 300;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    vertical-align: bottom;
+}
+
+.buttons a {
+    margin: 10px;
+    padding: 10px 20px;
+    width: 200px;
+    height: 140px;
+    font-size: 16px;
+    justify-content: flex-end;
+    background-color: rgb(43, 68, 89);
+    background-size: cover;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5em;
+    box-shadow: 0, 0;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.buttons a:hover {
+    width: 220px;
+    height: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #194035;
+}
+
+.buttons a span {
+    background: rgba(0, 0, 0, 0.7); /* Fondo del texto */
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    bottom: 0;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.socials a {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4D8C57;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 0.5em;
+}
+
+.socials a:hover {
+    background-color: #2C4459;
+}
+
+footer {
+    background-color: #2C4459;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color:#A0A677;
+}
